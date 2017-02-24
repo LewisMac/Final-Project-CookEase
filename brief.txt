@@ -1,0 +1,32 @@
+
+
+Create a web or Android application to assist with creating and tracking recipes and food.
+
+Use React and Rails to do this.
+or
+Make an Android App using React native or Java
+
+
+MVP: 
+- Selection of recipes with specific quantities of ingredients, text for recipe.
+
+- Search for recipe by Name, Style, Course, Ingredients.
+(e.g. enter “Eggs: 4, Potatoes: 8, application will return Spanish Omelette recipe)
+
+- Filter recipes by ingredient quantities.
+
+- User should have a profile with which to search
+
+- Add a ‘shopping list’ which the user can use to note any ingredients they don’t have, this will be accessible at any time whilst using recipes. User should be able to review the shopping list at any point and see shopping list for individual recipes, as well as a combined shopping list for all ingredients being bought.
+
+
+Extensions:
+
+- Add ability for user to save recipes they enjoy on a personal page
+
+- Add ability for user to create and upload their own recipes
+
+- Add ability for user to sort by Dietary Requirements (Gluten free, Dairy Free etc)
+
+- Include nutrition information for each meal based on foods in it
+
