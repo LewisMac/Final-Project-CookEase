@@ -919,3 +919,10 @@ Processing by RecipesController#index as HTML
 Completed 200 OK in 17ms (Views: 12.3ms | ActiveRecord: 0.9ms)
 
 
+Started GET "/api/recipes" for ::1 at 2017-02-27 10:59:19 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 20ms (Views: 6.4ms | ActiveRecord: 0.9ms)
+
+
