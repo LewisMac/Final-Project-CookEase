@@ -1,4 +1,48 @@
 
+.add-recipe{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 50%;
+  height: 500px;
+  /*border: 2px solid black;*/
+}
+
+#add-recipe{
+  display: flex;
+  flex-direction: row;
+  /*border: 2px solid black;*/
+}
+
+#ingredients{
+  border-radius: 15px;
+  height: 40px;
+  width: 33.3%;
+  border: 2px solid black;
+  text-align: center;
+}
+#recipe{
+  border-radius: 15px;
+  height: 40px;
+  width: 33.3%;
+  border: 2px solid black;
+  text-align: center;
+}
+#image{
+  border-radius: 15px;
+  height: 40px;
+  width: 33.3%;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#user-input-box{
+  border-radius: 25px;
+  height: 400px;
+  width: auto;
+  border: 2px solid black;
+}
+
 .Header{
   display: flex;
   flex-direction: row;
@@ -19,6 +63,7 @@
 }
 
 .header-button{
+  border-radius: 10px;
   height: 40px;
   width: 120px;
 }
