@@ -5092,3 +5092,10 @@ Processing by RecipesController#index as */*
 Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.3ms)
 
 
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /Users/user/Desktop/cx3_8/Projects/CookEase/cookease/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /Users/user/Desktop/cx3_8/Projects/CookEase/cookease/app/models/application_record.rb:1)
