@@ -1,6 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router'
-// import LoginBox from '../auth/LoginBox'
+import React from "react"
+
 
 const Home = () => (
   <div className="home">
@@ -8,5 +7,4 @@ const Home = () => (
   </div>
 )
 
-    // <LoginBox url="http://localhost:5000/" />
 export default Home
