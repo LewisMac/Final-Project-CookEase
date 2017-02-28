@@ -351,6 +351,22 @@ r2 = Recipe.create({
   method: "Boil potato, Eat potato"
   })
 
+Recipe.create({
+  name: "Baked Potato",
+  })
+Recipe.create({
+  name: "Mashed Potato",
+  })
+Recipe.create({
+  name: "Omlette",
+  })
+Recipe.create({
+  name: "Spanish Omlette",
+  })
+Recipe.create({
+  name: "Other thing",
+  })
+
 user1 = User.create({
   email: "lewis@email.com",
   password: "password",

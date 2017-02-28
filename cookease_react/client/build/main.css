@@ -1,0 +1,40 @@
+
+.Header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: tomato;
+  border: 2px solid black;
+}
+
+.input-box-div{
+  text-align: center;
+}
+
+.input-box{
+  width: 240px;
+  border: 2px solid black;
+}
+
+.header-button{
+  height: 40px;
+  width: 120px;
+}
+
+.recipeHolder{
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid black;*/
+}
+
+.recipe-name{
+  align-self: center;
+  /*border: 1px solid black;*/
+}
+
+.container{
+  align-content: center;
+  /*border: 1px solid blue;*/
+}

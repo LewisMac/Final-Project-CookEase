@@ -8,11 +8,11 @@ export default class Recipes extends React.Component{
   }
 
   componentDidMount(){
-    console.log("hi")
+    // console.log("hi")
     const url = "http://localhost:5000/api/recipes"
     this.makeRequest(url)
     .then(data => {
-      console.log("here now")
+      // console.log("here now")
       this.setState({recipes: data})
     })
     .catch(status => {
@@ -33,7 +33,7 @@ export default class Recipes extends React.Component{
         var jsonString = this.responseText;
         var data = JSON.parse(jsonString);
         resolve(data);
-        console.log("hey there",this.status)
+        // console.log("hey there",this.status)
       }
       request.send();
     });
@@ -41,10 +41,10 @@ export default class Recipes extends React.Component{
 
   render(){
     var options = this.state.recipes.map(function(recipe, index){
-      return <option value={index} key={index}>{recipe.name}</option>
+      return <h5 className="recipe-name" value={index} key={index}>{recipe.name}</h5>
     })
     return(
-      <div>
+      <div className="recipeHolder">
       {options}
       </div>
       )
