@@ -40,12 +40,12 @@ export default class Recipes extends React.Component{
   }
 
   render(){
-    var options = this.state.recipes.map(function(recipe, index){
+    var recipe_names = this.state.recipes.map(function(recipe, index){
       return <h5 className="recipe-name" value={index} key={index}>{recipe.name}</h5>
     })
     return(
       <div className="recipeHolder">
-      {options}
+      {recipe_names}
       </div>
       )
   }

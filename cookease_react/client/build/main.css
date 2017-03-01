@@ -1,4 +1,98 @@
 
+.add-recipe{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 50%;
+  height: 500px;
+  /*border: 2px solid black;*/
+}
+
+#add-recipe{
+  display: flex;
+  flex-direction: row;
+  /*border: 2px solid black;*/
+}
+
+#ingredients{
+  border-radius: 15px;
+  height: 40px;
+  width: 33.3%;
+  border: 2px solid black;
+  text-align: center;
+}
+#method{
+  border-radius: 15px;
+  height: 40px;
+  width: 33.3%;
+  border: 2px solid black;
+  text-align: center;
+}
+#method-box{
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+#method-input-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 25px;
+  height: 400px;
+  width: auto;
+  /*border: 2px solid black;*/
+}
+#image{
+  border-radius: 15px;
+  height: 40px;
+  width: 33.3%;
+  border: 2px solid black;
+  text-align: center;
+}
+#image-input-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  height: 400px;
+  width: auto;
+  border: 2px solid black;
+}
+#user-input-form{
+  display: flex;
+  align-items: center;
+}
+
+#user-input-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 25px;
+  height: 400px;
+  width: auto;
+  border: 2px solid black;
+}
+
+#user-input-holder{
+  border-radius: 25px;
+  height: 400px;
+  width: auto;
+  /*border: 2px solid black;*/
+}
+
+.ingredientSelection{
+}
+
+.ingredientInformation{
+  border-radius: 5px;
+  width: 40%;
+  height: 80%;
+  border: 1px solid black;
+  overflow: scroll;
+}
+
 .Header{
   display: flex;
   flex-direction: row;
@@ -19,6 +113,7 @@
 }
 
 .header-button{
+  border-radius: 10px;
   height: 40px;
   width: 120px;
 }
