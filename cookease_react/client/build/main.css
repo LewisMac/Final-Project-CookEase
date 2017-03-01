@@ -21,12 +21,27 @@
   border: 2px solid black;
   text-align: center;
 }
-#recipe{
+#method{
   border-radius: 15px;
   height: 40px;
   width: 33.3%;
   border: 2px solid black;
   text-align: center;
+}
+#method-box{
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+#method-input-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 25px;
+  height: 400px;
+  width: auto;
+  /*border: 2px solid black;*/
 }
 #image{
   border-radius: 15px;
@@ -35,12 +50,47 @@
   border: 2px solid black;
   text-align: center;
 }
-
-#user-input-box{
+#image-input-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
   border-radius: 25px;
   height: 400px;
   width: auto;
   border: 2px solid black;
+}
+#user-input-form{
+  display: flex;
+  align-items: center;
+}
+
+#user-input-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 25px;
+  height: 400px;
+  width: auto;
+  border: 2px solid black;
+}
+
+#user-input-holder{
+  border-radius: 25px;
+  height: 400px;
+  width: auto;
+  /*border: 2px solid black;*/
+}
+
+.ingredientSelection{
+}
+
+.ingredientInformation{
+  border-radius: 5px;
+  width: 40%;
+  height: 80%;
+  border: 1px solid black;
+  overflow: scroll;
 }
 
 .Header{

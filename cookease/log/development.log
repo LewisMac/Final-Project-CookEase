@@ -6357,3 +6357,681 @@ Processing by RecipesController#index as */*
 Completed 200 OK in 57ms (Views: 34.1ms | ActiveRecord: 3.8ms)
 
 
+Started GET "/api/ingredients" for ::1 at 2017-02-28 19:17:47 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (40.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 275ms (Views: 216.7ms | ActiveRecord: 40.0ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-02-28 19:35:23 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (53.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 492ms (Views: 429.0ms | ActiveRecord: 52.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-02-28 19:39:18 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (157.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 547ms (Views: 384.1ms | ActiveRecord: 157.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-02-28 19:39:20 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 129ms (Views: 126.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-02-28 19:39:29 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 107ms (Views: 104.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-02-28 19:39:30 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (0.8ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 123ms (Views: 121.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-02-28 19:39:31 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 102ms (Views: 99.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-02-28 19:40:09 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 94ms (Views: 91.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 07:47:21 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (22.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 595ms (Views: 556.0ms | ActiveRecord: 22.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 07:48:05 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (5.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 156ms (Views: 149.4ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 07:48:14 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 128ms (Views: 124.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 07:48:25 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 172ms (Views: 168.7ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 07:48:33 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 100ms (Views: 96.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 07:48:35 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 120ms (Views: 118.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 07:52:47 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (8.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 286ms (Views: 271.7ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 07:52:50 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.8ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 135ms (Views: 131.0ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 07:56:39 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (14.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 266ms (Views: 245.3ms | ActiveRecord: 14.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 07:56:41 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 121ms (Views: 118.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 07:58:00 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (9.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 171ms (Views: 155.2ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:03:40 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (32.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 301ms (Views: 251.0ms | ActiveRecord: 32.1ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:03:48 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 110ms (Views: 107.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:04:13 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 167ms (Views: 164.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:04:15 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 104ms (Views: 101.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:04:30 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 119ms (Views: 114.3ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:04:36 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 107ms (Views: 105.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:05:07 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 82ms (Views: 80.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:05:29 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 114ms (Views: 110.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:06:00 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 152ms (Views: 142.9ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:06:02 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (14.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 188ms (Views: 172.6ms | ActiveRecord: 14.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:07:19 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 145ms (Views: 142.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:07:35 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 111ms (Views: 103.0ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:07:36 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 167ms (Views: 163.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 08:07:51 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 102ms (Views: 100.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:14:23 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (16.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 229ms (Views: 205.6ms | ActiveRecord: 16.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:15:10 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (4.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 180ms (Views: 173.8ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:15:20 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 97ms (Views: 93.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:15:22 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 89ms (Views: 87.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:18:07 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (17.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 257ms (Views: 233.9ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:18:09 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 116ms (Views: 114.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:20:30 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 101ms (Views: 98.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:20:41 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.8ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 197ms (Views: 194.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:24:31 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (7.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 225ms (Views: 212.2ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:25:19 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (10.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 216ms (Views: 196.4ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:27:05 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 124ms (Views: 121.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:27:06 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 94ms (Views: 92.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:27:07 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 120ms (Views: 117.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:27:25 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 90ms (Views: 87.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:29:00 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 123ms (Views: 119.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:29:02 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 127ms (Views: 124.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:31:44 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (16.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 288ms (Views: 263.1ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:31:55 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.8ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 288ms (Views: 284.3ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:33:08 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 220ms (Views: 208.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:36:05 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (16.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 423ms (Views: 390.3ms | ActiveRecord: 16.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:36:07 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 221ms (Views: 219.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:36:23 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 130ms (Views: 127.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:36:25 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 106ms (Views: 103.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:37:28 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (10.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 128ms (Views: 107.4ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:37:44 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 147ms (Views: 143.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:37:46 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 107ms (Views: 104.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:46:24 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (10.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 248ms (Views: 226.6ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:47:12 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (9.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 230ms (Views: 205.3ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:47:42 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 189ms (Views: 186.0ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:48:07 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 152ms (Views: 149.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 09:48:09 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 126ms (Views: 123.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:00:57 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (10.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 243ms (Views: 227.9ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:01:52 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (5.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 348ms (Views: 341.1ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:01:57 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 292ms (Views: 289.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:02:10 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 234ms (Views: 230.1ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:02:14 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 139ms (Views: 137.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:02:34 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 111ms (Views: 108.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:02:38 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 116ms (Views: 113.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:03:13 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.8ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 174ms (Views: 171.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:03:18 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 149ms (Views: 145.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:03:49 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (10.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 313ms (Views: 295.0ms | ActiveRecord: 10.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:04:15 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (23.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 471ms (Views: 442.3ms | ActiveRecord: 23.1ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:05:01 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 146ms (Views: 142.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:05:03 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 127ms (Views: 124.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:06:54 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.8ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 131ms (Views: 121.8ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:07:37 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 79ms (Views: 76.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:09:08 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (10.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 363ms (Views: 342.9ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:09:36 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 119ms (Views: 116.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:17:09 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (27.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 233ms (Views: 199.9ms | ActiveRecord: 27.1ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:17:20 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 113ms (Views: 109.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:17:34 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.8ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 131ms (Views: 128.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:18:32 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (6.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 223ms (Views: 211.1ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:19:05 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 114ms (Views: 112.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:19:07 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 180ms (Views: 178.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:19:13 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 112ms (Views: 103.6ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:19:29 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 116ms (Views: 112.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:20:20 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (9.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 140ms (Views: 125.3ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:20:26 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 166ms (Views: 163.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:20:37 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 291ms (Views: 288.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:20:39 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 211ms (Views: 208.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:21:45 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (15.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 244ms (Views: 222.9ms | ActiveRecord: 15.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:22:36 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 116ms (Views: 113.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:22:50 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 134ms (Views: 132.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:23:17 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (8.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 207ms (Views: 193.5ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:25:27 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (14.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 415ms (Views: 394.7ms | ActiveRecord: 14.1ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:25:47 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (0.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 119ms (Views: 117.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:26:05 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 125ms (Views: 123.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:26:09 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 114ms (Views: 111.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:29:12 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (12.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 244ms (Views: 224.8ms | ActiveRecord: 12.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:30:55 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (7.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 258ms (Views: 236.6ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:30:58 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 128ms (Views: 125.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:31:40 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 151ms (Views: 148.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:32:25 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (8.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 270ms (Views: 255.5ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:32:39 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 132ms (Views: 126.4ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:32:48 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 100ms (Views: 98.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:33:24 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 146ms (Views: 142.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:33:41 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 180ms (Views: 176.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:34:08 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 123ms (Views: 120.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:36:13 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (7.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 148ms (Views: 126.7ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 10:36:54 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.8ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 181ms (Views: 178.5ms | ActiveRecord: 1.8ms)
+
+
