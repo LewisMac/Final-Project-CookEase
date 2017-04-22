@@ -4,6 +4,7 @@ export default class Ingredients extends React.Component{
 
   constructor(props){
     super(props);
+    console.log("ingredients", this.props)
     this.handleSearchQuery = this.handleSearchQuery.bind(this)
     this.state = {
       ingredients: []
@@ -56,12 +57,22 @@ export default class Ingredients extends React.Component{
     })
   }
 
+  handleAddIngredient(){
+    let ingredientQuantity = []
+    let ingredient = document.querySelector("#ingredientInputBox").value;
+    let quantity = document.querySelector("#quantityInputBox").value;
+    ingredientQuantity.push(ingredient)
+    ingredientQuantity.push(quantity)
+    const ingredientQuantityString = ingredientQuantity.join();
+    this.props.route.PassedDownState.method.push(ingredientQuantityString)
+  }
+
   render(){
     return(
       <div id="user-input-box">
       <div id="user-input-form">
       <form className="ingredientSelection">
-      <input type="text" onKeyUp={this.handleSearchQuery} className="input-box" placeholder="Ingredient">
+      <input type="text" onKeyUp={this.handleSearchQuery} className="input-box" id="ingredientInputBox" placeholder="Ingredient">
       </input>
       <select>
       <option> Units
@@ -75,14 +86,15 @@ export default class Ingredients extends React.Component{
       <option> Kilograms
       </option>
       </select>
-      <input type="number" className="input-box" placeholder="Quantity">
+      <input type="number" id="quantityInputBox" className="input-box" placeholder="Quantity">
       </input>
+      <button onClick={this.handleAddIngredient}> add ingredient </button>
       </form>
       </div>
       <ul className="ingredientInformation" id="ingredientSearchPara">
       </ul>
       <p className="ingredientInformation">
-      hi to you too
+      here
       </p>
       </div>
       )

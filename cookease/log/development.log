@@ -7035,3 +7035,1779 @@ Processing by IngredientsController#index as */*
 Completed 200 OK in 181ms (Views: 178.5ms | ActiveRecord: 1.8ms)
 
 
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /Users/user/Desktop/cx3_8/Projects/CookEase/cookease/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /Users/user/Desktop/cx3_8/Projects/CookEase/cookease/app/models/application_record.rb:1)
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:35:21 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 22ms (Views: 8.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:35:28 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:35:31 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:36:56 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 24ms (Views: 16.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/recipes15" for ::1 at 2017-03-01 11:36:58 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/recipes15"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [39 times] (23.8ms)
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.5ms)
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (143.6ms)
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:37:06 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:37:08 +0000
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for RecipesController):
+  
+actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.1) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:725:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:37:18 +0000
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for RecipesController):
+  
+actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.1) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:725:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:37:20 +0000
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:39:07 +0000
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 26ms (Views: 17.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:39:10 +0000
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:39:14 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:39:15 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:39:18 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:39:19 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:42:04 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 49ms (Views: 36.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:42:05 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:42:08 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:42:09 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:43:07 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:43:08 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:44:01 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:44:02 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:44:15 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:44:17 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:44:20 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:44:21 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:47:05 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 106ms (Views: 96.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:47:07 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:50:45 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:50:47 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:51:05 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:51:06 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:51:25 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/recipes/16" for ::1 at 2017-03-01 11:51:27 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"16"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+Completed 200 OK in 7ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:51:45 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/recipes/16" for ::1 at 2017-03-01 11:51:46 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"16"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:51:51 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:51:52 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:52:26 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 34ms (Views: 25.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:52:27 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:53:59 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 18ms (Views: 14.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:54:00 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:54:30 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 48ms (Views: 44.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/recipes/16" for ::1 at 2017-03-01 11:54:31 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"16"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:54:45 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/recipes/16" for ::1 at 2017-03-01 11:54:46 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"16"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:55:14 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 148ms (Views: 132.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:55:15 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:55:17 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:55:18 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:55:29 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:55:30 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:55:41 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:55:42 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:56:09 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 30ms (Views: 23.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:56:11 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 15ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:56:20 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:56:22 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:56:37 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:56:39 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:56:46 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:56:47 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:58:04 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:58:05 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:58:15 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:58:16 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:58:40 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:58:41 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:59:04 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:59:06 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 11:59:26 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (13.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 239ms (Views: 213.9ms | ActiveRecord: 15.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:59:29 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:59:35 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 11:59:37 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 11:59:38 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:00:05 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:00:05 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:00:18 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:00:19 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:00:52 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 51ms (Views: 28.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:00:53 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:03:59 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 20ms (Views: 14.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:04:00 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:04:11 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:04:12 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:04:28 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:04:29 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:04:31 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:04:32 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:05:45 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 31ms (Views: 22.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:05:46 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:05:53 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:05:54 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:05:55 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:05:56 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 10ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:06:04 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:06:05 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:06:47 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 72ms (Views: 58.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:06:48 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:07:40 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 15ms (Views: 11.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:07:42 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:08:51 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:08:52 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (2.4ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 16ms (Views: 5.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:09:55 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 60ms (Views: 45.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:09:56 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 56ms (Views: 51.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:10:08 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:10:08 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:10:30 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:10:32 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:11:19 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:11:20 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:11:57 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:11:58 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:11:59 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:12:01 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:12:18 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:12:19 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:14:12 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 31ms (Views: 23.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:14:14 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:57:35 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 44ms (Views: 36.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:57:38 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:58:01 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:58:03 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:58:13 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:58:14 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:58:49 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 12:58:50 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 12:58:52 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 13:01:22 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 117ms (Views: 106.7ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 13:01:24 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 8ms (Views: 3.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 13:01:34 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 27ms (Views: 20.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 13:01:35 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 13:03:43 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (5.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 56ms (Views: 42.9ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 13:03:45 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 13:04:01 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 13:04:02 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 13:04:04 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 13:04:05 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 13:06:36 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (6.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 54ms (Views: 36.2ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 13:06:38 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 13:06:50 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 13:06:52 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 13:06:58 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 13:06:59 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 13:07:06 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 18ms (Views: 14.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 13:07:07 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-01 13:07:08 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-01 13:07:09 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-01 15:15:30 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (74.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 323ms (Views: 231.5ms | ActiveRecord: 74.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 08:31:24 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (9.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 209ms (Views: 194.3ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 08:32:20 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (9.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 292ms (Views: 261.0ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 08:32:22 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (0.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 96ms (Views: 95.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 08:38:04 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (7.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 151ms (Views: 139.2ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-02 08:38:11 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-02 08:38:14 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 08:38:24 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 94ms (Views: 90.7ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-02 08:43:49 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 25ms (Views: 17.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-02 08:43:51 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-02 08:46:19 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 13ms (Views: 8.9ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/api/recipes/17" for ::1 at 2017-03-02 08:46:22 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"17"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-02 08:48:07 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-02 09:28:51 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 22ms (Views: 8.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-02 09:28:55 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-02 09:28:56 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-02 09:28:59 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/recipes/16" for ::1 at 2017-03-02 09:29:10 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"16"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-02 09:29:19 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/recipes/20" for ::1 at 2017-03-02 09:29:26 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"20"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-02 09:29:29 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 09:29:32 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 181ms (Views: 176.1ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 09:29:37 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 84ms (Views: 81.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/favourite_recipes" for ::1 at 2017-03-02 10:16:43 +0000
+Processing by FavouriteRecipesController#index as HTML
+Completed 401 Unauthorized in 44ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-02 10:16:43 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.0/app/views/devise/shared/_links.html.erb (1.5ms)
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 346ms (Views: 321.4ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2017-03-02 10:16:51 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i53fGJPWfWyXbmEDj5NuzFpX2d0KhAuHf3cN5bTLUvrT7Abk6cxQG2vL6HFuK/2XxT4/uJdck49q3QeJlrnLMw==", "user"=>{"email"=>"lewis@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "lewis@email.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2017-03-02 10:16:51 UTC], ["last_sign_in_at", 2017-03-02 10:16:51 UTC], ["current_sign_in_ip", "::1"], ["last_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", 2017-03-02 10:16:51 UTC], ["id", 13]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:5000/api/favourite_recipes
+Completed 302 Found in 180ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/api/favourite_recipes" for ::1 at 2017-03-02 10:16:51 +0000
+Processing by FavouriteRecipesController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" INNER JOIN "favourite_recipes" ON "recipes"."id" = "favourite_recipes"."recipe_id" WHERE "favourite_recipes"."user_id" = ?[0m  [["user_id", 13]]
+Completed 200 OK in 47ms (Views: 0.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-02 10:16:57 +0000
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+Redirected to http://localhost:5000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-02 10:16:57 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 9ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-02 10:16:58 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/favourite_recipes" for ::1 at 2017-03-02 10:17:23 +0000
+Processing by FavouriteRecipesController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-02 10:17:23 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.0/app/views/devise/shared/_links.html.erb (2.1ms)
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 43ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2017-03-02 10:18:24 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JjN5PrJi4EGRogkTMotU8HWeb1rqQ7X8Ci0QAWo7FEXKhNKfwkdQlNpuTB5ZHmzlFPM/18j52o57KzXAKd+1jQ==", "user"=>{"email"=>"steph@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "steph@email.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2017-03-02 10:18:24 UTC], ["last_sign_in_at", 2017-03-02 10:18:24 UTC], ["current_sign_in_ip", "::1"], ["last_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", 2017-03-02 10:18:24 UTC], ["id", 14]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:5000/api/favourite_recipes
+Completed 302 Found in 175ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/api/favourite_recipes" for ::1 at 2017-03-02 10:18:24 +0000
+Processing by FavouriteRecipesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" INNER JOIN "favourite_recipes" ON "recipes"."id" = "favourite_recipes"."recipe_id" WHERE "favourite_recipes"."user_id" = ?[0m  [["user_id", 14]]
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-02 10:18:34 +0000
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 10:43:52 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (7.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 398ms (Views: 384.7ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 10:43:52 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 105ms (Views: 103.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 10:43:54 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 103ms (Views: 100.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 10:43:54 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (0.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 64ms (Views: 62.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-03-02 10:44:02 +0000
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/recipes/15" for ::1 at 2017-03-02 10:44:23 +0000
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 10:44:59 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 65ms (Views: 62.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 10:45:47 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 82ms (Views: 78.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/api/favourite_recipes" for ::1 at 2017-03-02 10:46:08 +0000
+Processing by FavouriteRecipesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-02 10:46:08 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.0/app/views/devise/shared/_links.html.erb (0.9ms)
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2017-03-02 10:46:19 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5aYDoZcHBiCsv24pmPm70bsNpBNmK9v1htdH+eg4JPApj/4NI3flJwXMIcInsJE5CYnrnvjYXhcMohDvNP+u4w==", "user"=>{"email"=>"steph@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "steph@email.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.3ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2017-03-02 10:46:19 UTC], ["sign_in_count", 2], ["updated_at", 2017-03-02 10:46:19 UTC], ["id", 14]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:5000/api/favourite_recipes
+Completed 302 Found in 152ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/api/favourite_recipes" for ::1 at 2017-03-02 10:46:19 +0000
+Processing by FavouriteRecipesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" INNER JOIN "favourite_recipes" ON "recipes"."id" = "favourite_recipes"."recipe_id" WHERE "favourite_recipes"."user_id" = ?[0m  [["user_id", 14]]
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 10:48:50 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (11.8ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 134ms (Views: 111.6ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 14:32:10 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (27.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 356ms (Views: 316.9ms | ActiveRecord: 27.2ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 14:32:13 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 92ms (Views: 87.8ms | ActiveRecord: 3.9ms)
+
+
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /Users/user/Desktop/cx3_8/Projects/CookEase/cookease/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /Users/user/Desktop/cx3_8/Projects/CookEase/cookease/app/models/application_record.rb:1)
+Started GET "/api/ingredients" for ::1 at 2017-03-02 14:37:17 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 134ms (Views: 126.8ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 14:37:20 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (4.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 90ms (Views: 84.5ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 14:43:20 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 135ms (Views: 126.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 14:43:23 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 103ms (Views: 100.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 14:44:01 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (7.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 339ms (Views: 319.7ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 14:44:04 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 261ms (Views: 256.7ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 14:44:11 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 111ms (Views: 109.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 14:45:03 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (7.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 480ms (Views: 462.6ms | ActiveRecord: 7.5ms)
+
+
+Started POST "/api/recipes" for ::1 at 2017-03-02 14:45:05 +0000
+Processing by RecipesController#create as */*
+  Parameters: {"recipe"=>{}}
+Can't verify CSRF token authenticity.
+Completed 400 Bad Request in 14ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: recipe):
+  
+app/controllers/recipes_controller.rb:19:in `recipe_params'
+app/controllers/recipes_controller.rb:14:in `create'
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.8ms)
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.0ms)
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (129.5ms)
+Started POST "/api/recipes" for ::1 at 2017-03-02 14:45:06 +0000
+Processing by RecipesController#create as */*
+  Parameters: {"recipe"=>{}}
+Can't verify CSRF token authenticity.
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: recipe):
+  
+app/controllers/recipes_controller.rb:19:in `recipe_params'
+app/controllers/recipes_controller.rb:14:in `create'
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/user/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (103.0ms)
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:00:25 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 96ms (Views: 87.9ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:01:30 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (15.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 442ms (Views: 405.2ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:02:06 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 363ms (Views: 359.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:07:04 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (35.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 419ms (Views: 369.4ms | ActiveRecord: 35.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:07:46 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (7.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 283ms (Views: 263.9ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:08:20 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (14.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 262ms (Views: 240.9ms | ActiveRecord: 14.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:09:43 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (18.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 233ms (Views: 209.6ms | ActiveRecord: 18.0ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:09:48 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 83ms (Views: 80.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/favourite_recipes" for ::1 at 2017-03-02 15:14:39 +0000
+Processing by FavouriteRecipesController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" INNER JOIN "favourite_recipes" ON "recipes"."id" = "favourite_recipes"."recipe_id" WHERE "favourite_recipes"."user_id" = ?[0m  [["user_id", 14]]
+Completed 200 OK in 132ms (Views: 2.2ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:14:41 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 170ms (Views: 165.7ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:17:25 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (10.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 223ms (Views: 206.1ms | ActiveRecord: 10.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:20:37 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (17.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 308ms (Views: 274.0ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:20:57 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 143ms (Views: 139.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:21:41 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (4.3ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 431ms (Views: 347.8ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:21:53 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (3.8ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 95ms (Views: 90.5ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:22:20 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 205ms (Views: 202.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:22:21 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 104ms (Views: 101.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:22:28 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.9ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 171ms (Views: 167.7ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:22:42 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 104ms (Views: 101.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:22:56 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 89ms (Views: 87.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:23:16 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.4ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 100ms (Views: 97.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:23:59 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (4.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 176ms (Views: 160.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:24:38 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 198ms (Views: 195.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:24:41 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (4.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 200ms (Views: 195.6ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:24:44 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 163ms (Views: 160.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:24:52 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.0ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 90ms (Views: 86.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:25:59 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (16.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 521ms (Views: 495.2ms | ActiveRecord: 16.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:30:13 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (14.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 145ms (Views: 120.9ms | ActiveRecord: 14.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:31:27 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (16.8ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 257ms (Views: 229.9ms | ActiveRecord: 16.8ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:31:39 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (1.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 81ms (Views: 79.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:31:40 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.5ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 109ms (Views: 106.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:32:07 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (5.8ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 207ms (Views: 194.7ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:32:13 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (4.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 104ms (Views: 98.7ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:43:33 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (16.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 225ms (Views: 196.2ms | ActiveRecord: 16.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 15:43:47 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.6ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 213ms (Views: 208.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/api/ingredients" for ::1 at 2017-03-02 16:11:13 +0000
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (8.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 132ms (Views: 119.3ms | ActiveRecord: 8.1ms)
+
+
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /Users/user/Desktop/cx3_8/Projects/CookEase/cookease/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /Users/user/Desktop/cx3_8/Projects/CookEase/cookease/app/models/application_record.rb:1)
+Started GET "/api/ingredients" for ::1 at 2017-03-09 14:09:25 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IngredientsController#index as */*
+  [1m[36mIngredient Load (2.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+Completed 200 OK in 62ms (Views: 47.7ms | ActiveRecord: 2.6ms)
+
+

@@ -133,3 +133,35 @@
   align-content: center;
   /*border: 1px solid blue;*/
 }
+
+#RecipeHolder{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*border: 1px solid black;*/
+}
+
+#IngredientsHolder{
+  width: 20%;
+  height: 800px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#MethodHolder{
+  border: 1px solid black;
+}
+
+#ImageHolder{
+  height: 200px;
+  background-color: blue;
+  border: 1px solid green;
+}
+
+#ingredientsAndMethodHolder{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  /*border: 1px solid blue;*/
+}
