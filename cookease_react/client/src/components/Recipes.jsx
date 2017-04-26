@@ -7,6 +7,7 @@ export default class Recipes extends React.Component{
     super(props);
     this.state = {recipes: [], selectedRecipe: null}
     this.handleRecipeClick = this.handleRecipeClick.bind(this)
+    this.handleBackButton = this.handleBackButton.bind(this)
   }
 
   componentDidMount(){
@@ -37,6 +38,10 @@ export default class Recipes extends React.Component{
     });
   }
 
+  handleBackButton(){
+    this.setState({selectedRecipe: null})
+  }
+
   handleRecipeClick(event){
     console.log(event.target.id)
     const url = `http://localhost:5000/api/recipes/${event.target.id}`
@@ -60,7 +65,7 @@ export default class Recipes extends React.Component{
         )
     } else {
       return(
-        <Recipe selectedRecipe={this.state.selectedRecipe}/>
+        <Recipe selectedRecipe={this.state.selectedRecipe} backButton={this.handleBackButton}/>
       )
     }
   }

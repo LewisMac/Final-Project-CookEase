@@ -4,7 +4,10 @@ import React from "react"
 const Home = () => (
   <div className="home">
     <h1 className='title'>CookEase</h1>
-    <div className='RecipeList'>Recipes</div>
+    <div id='main_page'>
+      <div className='RecipeList'>Liked Recipes</div>
+      <div className='RecomendedRecipes'>Recipe of the Week</div>
+    </div>
   </div>
 )
 

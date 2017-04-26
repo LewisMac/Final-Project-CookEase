@@ -143,10 +143,9 @@
 }
 
 #IngredientsHolder{
-  width: 20%;
-  height: 800px;
   border-radius: 10px;
   border: 1px solid black;
+  overflow: auto;
 }
 
 #MethodHolder{
@@ -159,15 +158,31 @@
   border: 1px solid green;
 }
 
-#ingredientsAndMethodHolder{
+#ImageAndMethodHolder{
   display: flex;
   flex-direction: column;
   width: 70%;
   /*border: 1px solid blue;*/
 }
 
+#IngredientsAndMenuHolder{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+#main_page{
+  display: flex;
+}
+
 .RecipeList{
-  width: 70%;
+  width: 69%;
   height: 800px;
   background-color: pink;
+}
+
+.RecomendedRecipes{
+  width: 29%;
+  height: 800px;
+  background-color: purple;
 }

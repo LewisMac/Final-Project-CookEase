@@ -4,10 +4,16 @@ export default class Recipe extends React.Component{
 
   constructor(props){
     super(props);
+    console.log(this)
     this.separateIngredients = this.separateIngredients.bind(this)
     this.state = {
       ingredients: []
     }
+  }
+
+  handleMenuBackClick(event){
+    // console.log(this)
+    this.props.backButton();
   }
 
   separateIngredients(ingredientList){
@@ -16,7 +22,7 @@ export default class Recipe extends React.Component{
       // console.log(ingredientList)
     this.props.selectedRecipe.ingredients.split(" ").forEach(function(ingredient){
       let li = document.createElement("li")
-      console.log(ingredient)
+      // console.log(ingredient)
       li.appendChild(document.createTextNode(ingredient))
       ingredientList.appendChild(li)
     })
@@ -28,18 +34,23 @@ export default class Recipe extends React.Component{
 
   render(){
     // var ingredientList = document.querySelector("#ingredientsdisplayList")
-    
+
 
     return(
       <div id="RecipeHolder">
 
-        <div id="IngredientsHolder">
-        <h3>Ingredients</h3>
-        <ul id="ingredientsdisplayList">
-        </ul>
+        <div id='IngredientsAndMenuHolder'>
+          <div id='MenuHolder'>
+            <h2 onClick={this.handleMenuBackClick.bind(this)}>Back</h2>
+          </div>
+          <div id="IngredientsHolder">
+            <h3>Ingredients</h3>
+            <ul id="ingredientsdisplayList">
+            </ul>
+          </div>
         </div>
 
-        <div id="ingredientsAndMethodHolder">
+        <div id="ImageAndMethodHolder">
           <div id="ImageHolder">
           <h3>Image</h3>
           </div>
@@ -50,7 +61,7 @@ export default class Recipe extends React.Component{
           </div>
         </div>
 
-      
+
       </div>
       )
   }

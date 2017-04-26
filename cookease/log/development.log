@@ -11155,3 +11155,155 @@ Processing by IngredientsController#index as */*
 Completed 200 OK in 224ms (Views: 215.9ms | ActiveRecord: 7.0ms)
 
 
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at C:/Users/Lewis/Desktop/Coding/CookEase/cookease/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at C:/Users/Lewis/Desktop/Coding/CookEase/cookease/app/models/application_record.rb:1)
+Started GET "/" for ::1 at 2017-04-26 09:03:15 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb (48.5ms)
+Completed 200 OK in 701ms (Views: 377.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-04-26 09:03:26 +0100
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 79ms (Views: 41.3ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/api/favourite_recipes" for ::1 at 2017-04-26 09:03:32 +0100
+Processing by FavouriteRecipesController#index as HTML
+Completed 401 Unauthorized in 76ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-04-26 09:04:05 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/devise-4.2.0/app/views/devise/shared/_links.html.erb (5.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/devise-4.2.0/app/views/devise/sessions/new.html.erb within layouts/application (724.3ms)
+Completed 200 OK in 5455ms (Views: 5376.4ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2017-04-26 09:05:58 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bXSF57Fj3bYouNlTkSwkf9iuwvjEkK3uOIU9eTSH+dSwWcKHkUhNwjl/udFhlg7K5gpuT3/RQEoiUJdyCuP4hQ==", "user"=>{"email"=>"lewis@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (15.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "lewis@email.com"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (17.0ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2017-04-26 08:05:58 UTC], ["last_sign_in_at", 2017-04-26 08:05:58 UTC], ["current_sign_in_ip", "::1"], ["last_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", 2017-04-26 08:05:58 UTC], ["id", 15]]
+  [1m[35m (242.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:5000/api/favourite_recipes
+Completed 302 Found in 1393ms (ActiveRecord: 274.4ms)
+
+
+Started GET "/api/favourite_recipes" for ::1 at 2017-04-26 09:05:59 +0100
+Processing by FavouriteRecipesController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mRecipe Load (23.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" INNER JOIN "favourite_recipes" ON "recipes"."id" = "favourite_recipes"."recipe_id" WHERE "favourite_recipes"."user_id" = ?[0m  [["user_id", 15]]
+Completed 200 OK in 656ms (Views: 1.6ms | ActiveRecord: 26.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-04-26 09:06:05 +0100
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+Redirected to http://localhost:5000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-04-26 16:19:10 +0100
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/api/recipes/22" for ::1 at 2017-04-26 16:19:13 +0100
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mRecipe Load (0.0ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+Completed 200 OK in 7ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-04-26 16:29:48 +0100
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/recipes/22" for ::1 at 2017-04-26 16:29:50 +0100
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mRecipe Load (0.0ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-04-26 16:30:19 +0100
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/recipes/22" for ::1 at 2017-04-26 16:30:21 +0100
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 2.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-04-26 16:31:28 +0100
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/recipes/22" for ::1 at 2017-04-26 16:31:30 +0100
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-04-26 16:32:33 +0100
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/recipes/22" for ::1 at 2017-04-26 16:32:35 +0100
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mRecipe Load (0.0ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-04-26 16:32:43 +0100
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/recipes/22" for ::1 at 2017-04-26 16:32:45 +0100
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mRecipe Load (0.0ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/recipes" for ::1 at 2017-04-26 16:36:03 +0100
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/recipes/22" for ::1 at 2017-04-26 16:36:04 +0100
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 1.0ms)
+
+
